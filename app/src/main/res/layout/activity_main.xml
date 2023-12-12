@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp">
+        >
+
+        <EditText
+            android:id="@+id/urlEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:hint="Enter URL"
+            android:background="@null"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#8C8C8C"
+            android:inputType="textUri"
+            />
+
+        <Button
+            android:id="@+id/fetchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fetch"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+    <!-- Step 2: Display downloaded images -->
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="450dp"
+        android:columnCount="4"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"
+        >
+
+
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag1" />
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag2" />
+
+        <ImageButton
+            android:id="@+id/image3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag3" />
+
+        <ImageButton
+            android:id="@+id/image4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag4" />
+
+        <ImageButton
+            android:id="@+id/image5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag5" />
+
+        <ImageButton
+            android:id="@+id/image6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag6" />
+
+        <ImageButton
+            android:id="@+id/image7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag7" />
+
+        <ImageButton
+            android:id="@+id/image8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag8" />
+
+        <ImageButton
+            android:id="@+id/image9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag9" />
+
+        <ImageButton
+            android:id="@+id/image10"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag10" />
+
+        <ImageButton
+            android:id="@+id/image11"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag11" />
+
+        <ImageButton
+            android:id="@+id/image12"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag12" />
+
+        <ImageButton
+            android:id="@+id/image13"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag13" />
+
+        <ImageButton
+            android:id="@+id/image14"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag14" />
+
+        <ImageButton
+            android:id="@+id/image15"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag15" />
+
+        <ImageButton
+            android:id="@+id/image16"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag16" />
+
+        <ImageButton
+            android:id="@+id/image17"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag17" />
+
+        <ImageButton
+            android:id="@+id/image18"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag18" />
+
+        <ImageButton
+            android:id="@+id/image19"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag19" />
+
+        <ImageButton
+            android:id="@+id/image20"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/deafultimage"
+            android:tag="tag20" />
+        <!-- Add more ImageButtons here... -->
+
+    </GridLayout>
+
+
+    <!-- Progress bar and description text -->
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Downloading 0 of 20 images…"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            />
+</LinearLayout>
